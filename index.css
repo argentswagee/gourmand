@@ -1,0 +1,129 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: #F49FBC;
+    overflow-x: hidden;
+    box-sizing: border-box;
+
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    height: auto;
+    width: 150px;
+    border-radius: 20%;
+    margin-top: 3%;
+    box-shadow: 10px 10px 75px rgb(255, 255, 255);
+    max-width: 100%;
+    top: 0%;
+    left: 57%;
+}
+
+.deb {
+    position: absolute;
+    background-color: #ffd3ba00;
+    margin-top: -50%;
+    text-align: center;
+    object-position: center;
+    width: 600px;
+    justify-content: center;
+    border-width: 0%;
+    left: 9%;
+}
+
+.debtxt {
+    font-size: 37px;
+    border-radius: 20px;
+    font-family: 'Caveat', sans-serif;
+    padding: 10px;
+    text-align: center;
+    border-color: black;
+    border-width: 0%;
+    margin-left: -10%;
+}
+
+.générer {
+    position: absolute;
+    margin-top: -20%;
+    padding: 5%;
+    width: 150px;
+    background-color: #805d93a2;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: bisque;
+    border: #FFD3BA;
+    font-family: 'Caveat', sans-serif;
+    font-size: 30px;
+    left: 55%;
+}
+
+.générer:active {
+    box-shadow: 0px 0px 20px white;
+}
+
+.box {
+    overflow: auto;
+    position: absolute;
+    background-color: #FFD3BA;
+    margin-top: 45%;
+    width: 450px;
+    padding: 15px;
+    height: 300px;
+    border-radius: 20px;
+    font-family: 'Caveat', sans-serif;
+    font-size: 25px;
+    left: 20%;
+}
+
+.titre {
+    margin-top: 20%;
+    position: absolute;
+    font-family: 'Caveat', sans-serif;
+    left: 55%;
+}
+.menulogo {
+    height: auto;
+    width: 25px;
+    position: absolute;
+    margin-top: -105%;
+    margin-left: 2%;
+    z-index: 51;
+    background-color: #F49FBC;
+    left: 0%;
+}
+
+.menu {
+    position: absolute;
+    background-color: #f4b6caeb;
+    z-index: 50;
+    height: 1500px;
+    width: 250px;
+    margin-top: -108%;
+    left: 0%;
+}
+
+.connexionboutton {
+    padding: 10px;
+    position: absolute;
+    background-color: #F49FBC;
+    margin-left: 25%;
+    margin-top: 25%;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 15px;
+    top: 0%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

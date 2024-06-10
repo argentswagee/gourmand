@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #F49FBC;
+}
+
+.menulogo {
+    height: auto;
+    width: 25px;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 3%;
+    z-index: 51;
+    background-color: #F49FBC;
+}
+
+.menu {
+    position: absolute;
+    background-color: rgba(255, 93, 250, 0.773);
+    z-index: 50;
+    height: 1500px;
+    width: 250px;
+}
+
+.connexionboutton {
+    padding: 10px;
+    position: absolute;
+    background-color: #D57A66;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.pseudo {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 15%;
+    height: 35px;
+    width: 300px;
+    font-size: 30px;
+    padding: 7px;
+    border-radius: 20px;
+    border-width: 0px;
+}
+
+.mdp {
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 15%;
+    height: 35px;
+    width: 300px;
+    font-size: 30px;
+    padding: 7px;
+    border-radius: 20px;
+    border-width: 0px;
+}
+
+.valider {
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 33%;
+    height: 75px;
+    width: 150px;
+    font-size: 25px;
+    padding: 7px;
+    border-radius: 20px;
+    border-width: 0px;
+}
+
+.valider:active {
+box-shadow: 10px 10px 100px white;
+}
+
+.connecter {
+    position: absolute;
+    margin-left: 33%;
+    margin-top: 5%;
+    font-family: 'Caveat', sans-serif;
+}
