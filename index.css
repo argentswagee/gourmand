@@ -4,7 +4,7 @@
     background-color: #F49FBC;
     overflow-x: hidden;
     box-sizing: border-box;
-    overflow-x: hidden;
+
 }
 
 html, body {
@@ -13,7 +13,6 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow-x: hidden;
 }
 
 .logo {
@@ -25,7 +24,7 @@ html, body {
     box-shadow: 10px 10px 75px rgb(255, 255, 255);
     max-width: 100%;
     top: 0%;
-    left: 57%;
+    left: 45%;
 }
 
 .deb {
@@ -34,10 +33,10 @@ html, body {
     margin-top: -50%;
     text-align: center;
     object-position: center;
-    width: 600px;
+    width: 450px;
     justify-content: center;
     border-width: 0%;
-    left: 9%;
+    left: 15%;
 }
 
 .debtxt {
@@ -63,7 +62,7 @@ html, body {
     border: #FFD3BA;
     font-family: 'Caveat', sans-serif;
     font-size: 30px;
-    left: 55%;
+    left: 44%;
 }
 
 .générer:active {
@@ -75,20 +74,20 @@ html, body {
     position: absolute;
     background-color: #FFD3BA;
     margin-top: 45%;
-    width: 450px;
+    width: 400px;
     padding: 15px;
     height: 300px;
     border-radius: 20px;
     font-family: 'Caveat', sans-serif;
     font-size: 25px;
-    left: 20%;
+    left: 14%;
 }
 
 .titre {
     margin-top: 20%;
     position: absolute;
     font-family: 'Caveat', sans-serif;
-    left: 55%;
+    left: 44%;
 }
 .menulogo {
     height: auto;
